@@ -1,0 +1,40 @@
+#titulo{
+    color: #00959b;
+}
+
+.especial{
+    color: red
+}
+
+.destacado{
+    color: #fad400;
+}
+#subtitulo{
+    color:blue;
+}
+
+.uno{
+    color: #b700b7;
+}
+
+.varios{
+    color: #2bb92b;
+}
+
+#adicional{
+    color: #a4a400;
+}
+
+#unico{
+    color: #d548cf;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
