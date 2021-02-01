@@ -1,0 +1,73 @@
+/*
+Hoja de Estilo Briayan.CSS
+Briayan Moposita
+Enero de 2021
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightseagreen;
+}
+
+h1{
+    text-align: center;
+    color: #164341;
+    font-family: sans-serif;
+}
+
+main{
+    text-align: justify;
+    padding: 10px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pri{
+    display: flex;
+    background-color: white;
+    margin: 30px;
+    padding: 4%;
+    border:  10px solid #ff4700;
+    border-radius: auto; 
+}
+
+.bri{
+    text-align: justify;
+    padding-left: 20px;
+}
+.the{
+    width: 250px;
+    height: 190px;
+    border: 10px solid orange;
+    outline: 10px solid #ff4700;
+}
+
+.seg{
+    display: flex;
+    background-color: white;
+    margin: 30px;
+    padding: 4%;
+    border:  10px solid orange;
+    border-radius: auto; 
+}
+
+.tate{
+    width: 250px;
+    height: 190px;
+    border: 10px solid #ff4700;
+    outline: 10px solid orange;
+}
+
+.tri{
+    text-align: justify;
+    padding-right: 20px;
+}
+
