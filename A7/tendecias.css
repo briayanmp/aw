@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(logos/jakob-owens-CTflmHHVrBM-unsplash.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-attachment: fixed;
+}
+
+img{
+    width: 20px; 
+}
+
+.linea{
+    padding: 2px;
+    border-bottom: 2px solid #262626;
+}
+
+.text{
+    border-bottom: 2px solid #262626;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+.enlaces{
+    border-bottom: 2px solid #262626; 
+}
+
+.mflex{
+    display: flex;
+}
+
+.mflex a{
+    color: white;
+    padding: 0.5em 0;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+    font-family: fantasy;
+	font-size: 20px;
+	height: 100px;
+	transition: all 1s ease;
+}
+
+.mflex a:hover{
+	background-color: #500000;
+}
+
+.mio{
+  width: 75%;
+}
+
+main{
+    display: grid;
+    width: 80%;
+    margin: auto;
+}
+
+.titu{
+	margin-top: 20px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.imagenes{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.video{
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.video{
+    transition: all 2.5s ease;
+    
+}
+.video:hover{
+    transform: scale(1.1);
+}
+
+.sangria{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+	padding-bottom: 20px;
+}
+
+#tablat{
+	margin: 20px auto;
+	width: 100%;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	font-family: 'Abel', sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+footer{
+	padding-top: 10px;
+    width: 100%;
+    color: white;
+	background-image: url(./logos/footer-background-mountain.jpg);
+	background-size: 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+h1, li, dd{
+	color: white;
+	font-family: 'Abel', sans-serif;
+    font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.espa{
+	padding-bottom: 50px;
+}
+
+footer h3{
+	color: white; 
+	padding-top: 10px; 
+	margin: 0;
+}
+footer p{
+	color: gray; 
+	padding-bottom: 30px;
+}
+
+.columnas h2{
+	font-size: 25px;
+	text-align: center;
+	font-family: fantasy;
+}
+
+.columnas h3{
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	font-family: fantasy;
+}
+.columnas p{
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	padding-bottom: 30px;
+	font-family: fantasy;
+}
+
+.likes{
+	padding-bottom: 50px;
+	text-align: center;
+	
+}
+
+.dentro{
+	border: solid 1px white;
+	padding: 20px 40px;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.color{
+	border-color: white;
+	color: white;
+}
+
+.color:hover{
+	background-color: white;
+	border-color: black;
+	color: black;
+}
